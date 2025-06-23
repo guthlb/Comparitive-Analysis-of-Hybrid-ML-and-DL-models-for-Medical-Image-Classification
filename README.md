@@ -1,19 +1,30 @@
-# Comparative Analysis of Hybrid ML and DL Models for Medical Image Classification
-
 ## Description
 
-This project is dedicated to developing advanced medical image classification systems for brain tumors and chest X-rays using standalone machine learning (ML), standalone deep learning (DL), and hybrid ML/DL approaches. Medical image analysis is crucial for early and accurate disease detection, directly impacting patient outcomes and care. By utilizing datasets from Kaggle—consisting of meticulously annotated brain MRI images and chest X-ray images—models are trained to differentiate between normal scans and those displaying tumor or infection anomalies. The project is implemented using Jupyter Notebooks and supports collaborative development and experimentation for ML, DL, and hybrid methodologies in medical image classification.
+This project features pneumonia detection by binary classification of Chest X-ray images, and tumor classification of Brain Tumor MRIs using standalone machine learning (ML), standalone deep learning (DL), and hybrid ML+DL approaches. Medical image analysis is crucial for early diagnosis of diseases, directly impacting patient outcomes and care. By utilizing datasets from Kaggle consisting of annotated brain MRI images and chest X-ray images, models are trained to differentiate between normal scans and those displaying tumor or infection anomalies. The project is implemented using Kaggle Notebooks and supports collaborative development and experimentation for ML, DL, and hybrid methodologies in medical image classification.
 
-## Features
+## Methodology
 
-- **Standalone ML, DL, and Hybrid Models:** Comprehensive evaluation of Support Vector Machines (SVM), Convolutional Neural Networks (CNN), and hybrid (CNN + SVM/XGBoost) architectures.
-- **Dataset Support:**  
-  - **Chest X-Ray:** [Chest X-Ray Pneumonia Dataset (Kaggle)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)  
-  - **Brain Tumor:** [Brain Tumor Classification (MRI) Dataset (Kaggle)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
-- **Automated Feature Extraction:** Leverages deep learning for automatic feature extraction and traditional ML for classification.
-- **Model Training and Evaluation:** Includes scripts for model training, validation, and performance assessment.
-- **Comprehensive Reporting:** Provides a detailed final analysis report with results, visualizations, and insights.
-- **Code Organization:** All code, notebooks, and report files are included and clearly linked for easy access.
+#### A. Standalone Machine Learning (ML)
+- **Support Vector Machine (SVM)**  
+  - RBF and Linear kernels with Principal Component Analysis (PCA) feature extraction
+- **Extreme Gradient Boosting (XGBoost) Classifier**  
+  - Raw implementation without feature extraction
+- **XGBoost with PCA feature extraction**
+
+#### B. Standalone Deep Learning (DL)
+- **Convolutional Neural Network (CNN)**  
+  - Transfer Learning using VGG16 architecture
+
+#### C. Hybrid ML + DL Approach
+- **XGBoost** with Principal Component Analysis (PCA) feature extraction
+
+## Datasets
+
+  - **Chest X-Ray:** [Chest X-Ray Pneumonia Dataset (Kaggle)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+![Chest Xray Dataset](https://github.com/user-attachments/assets/00d6e5a8-928e-4dc5-8169-0e17d9cb72c2)
+
+  - **Brain Tumor:** [Brain Tumor Classification MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
+![Brain Tumor Dataset](https://github.com/user-attachments/assets/6f89bf30-a3b2-4994-9e25-e9aa38dde4be)
 
 ## Requirements
 
@@ -49,4 +60,4 @@ pip install -r requirements.txt
 #4. Open and run the desired .ipynb file in Jupyter Notebook, or use:
 jupyter notebook
 
-# For GPU acceleration, you use Kaggle Notebook or Google Colab by uploading the code and data.
+# For GPU acceleration, use Kaggle Notebook or Google Colab by uploading the code and data.
