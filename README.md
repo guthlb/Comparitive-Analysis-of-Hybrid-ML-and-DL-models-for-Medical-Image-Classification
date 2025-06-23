@@ -39,16 +39,14 @@ cd Comparitive-Analysis-of-Hybrid-ML-and-DL-models-for-Medical-Image-Classificat
 # Linux/macOS
 python3 -m venv venv
 source venv/bin/activate
-
 # Windows
 python -m venv venv
 venv\Scripts\activate
 
-#3.  DOWNLOAD ALL THE REQUIRED PACKAGES BY RUNNING:
+#3. Download all the required packages by running:
 pip install -r requirements.txt
 
-#4. YOU CAN RUN THE NOTEBOOKS OR SCRIPTS FOR TRAINING AND ANALYSIS.
-# For example, open and run the desired .ipynb file in Jupyter Notebook, or use:
+#4. Open and run the desired .ipynb file in Jupyter Notebook, or use:
 jupyter notebook
 
-# For GPU acceleration, you may also use Kaggle Notebook or Google Colab by uploading the code and data.
+# For GPU acceleration, you use Kaggle Notebook or Google Colab by uploading the code and data.
