@@ -30,11 +30,11 @@ This project is dedicated to developing advanced medical image classification sy
 ## Setup Instructions
 
 ```bash
-#Clone the repository
-git clone https://github.com/arundhatigvasishth/Comparitive-Ananlysis-of-Hybrid-ML-and-DL-Models-for-Medical-Image-Classification.git
-cd Comparitive-Ananlysis-of-Hybrid-ML-and-DL-Models-for-Medical-Image-Classification
+#1. Clone the repository
+git clone https://github.com/guthlb/Comparitive-Analysis-of-Hybrid-ML-and-DL-models-for-Medical-Image-Classification
+cd Comparitive-Analysis-of-Hybrid-ML-and-DL-models-for-Medical-Image-Classification
 
-# If you do not have Python 3.6 or higher, create a virtual environment using this in your command prompt
+#2. If you do not have Python 3.6 or higher, create a virtual environment using this in your command prompt
 
 # Linux/macOS
 python3 -m venv venv
@@ -44,10 +44,10 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 
-# DOWNLOAD ALL THE REQUIRED PACKAGES BY RUNNING:
+#3.  DOWNLOAD ALL THE REQUIRED PACKAGES BY RUNNING:
 pip install -r requirements.txt
 
-# YOU CAN RUN THE NOTEBOOKS OR SCRIPTS FOR TRAINING AND ANALYSIS.
+#4. YOU CAN RUN THE NOTEBOOKS OR SCRIPTS FOR TRAINING AND ANALYSIS.
 # For example, open and run the desired .ipynb file in Jupyter Notebook, or use:
 jupyter notebook
 
