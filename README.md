@@ -2,7 +2,7 @@
 
 This project features pneumonia detection by binary classification of Chest X-ray images, and tumor classification of Brain Tumor MRIs using standalone machine learning (ML), standalone deep learning (DL), and hybrid ML+DL approaches. Medical image analysis is crucial for early diagnosis of diseases, directly impacting patient outcomes and care. By utilizing datasets from Kaggle consisting of annotated brain MRI images and chest X-ray images, models are trained to differentiate between normal scans and those displaying tumor or infection anomalies. The project is implemented using Kaggle Notebooks and supports collaborative development and experimentation for ML, DL, and hybrid methodologies in medical image classification.
 
-## Methodology
+## Models
 
 #### A. Standalone Machine Learning (ML)
 - **Support Vector Machine (SVM)**  
@@ -35,8 +35,7 @@ This project features pneumonia detection by binary classification of Chest X-ra
   - scikit-learn (for traditional ML models and evaluation)
   - NumPy and PIL (for image processing)
   - Pandas, Matplotlib, Seaborn (for data handling and visualization)
-- **GPU (highly preferable for faster training):** You can use Kaggle Notebook or Google Colab for GPU access.
-- **Optional:** Jupyter Notebook for interactive development
+- **GPU (reccomended for faster training):** Kaggle Notebook or Google Colab for GPU access.
 
 ## Setup Instructions
 
