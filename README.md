@@ -23,7 +23,7 @@ This project is dedicated to developing advanced medical image classification sy
   - TensorFlow and Keras (for deep learning model development)
   - scikit-learn (for traditional ML models and evaluation)
   - NumPy and PIL (for image processing)
-  - pandas and matplotlib (for data handling and visualization)
+  - Pandas, Matplotlib, Seaborn (for data handling and visualization)
 - **GPU (highly preferable for faster training):** You can use Kaggle Notebook or Google Colab for GPU access.
 - **Optional:** Jupyter Notebook for interactive development
 
