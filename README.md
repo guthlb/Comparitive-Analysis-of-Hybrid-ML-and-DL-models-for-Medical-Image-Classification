@@ -26,6 +26,13 @@ This project features pneumonia detection by binary classification of Chest X-ra
   - **Brain Tumor:** [Brain Tumor Classification MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
 ![Brain Tumor Dataset](https://github.com/user-attachments/assets/6f89bf30-a3b2-4994-9e25-e9aa38dde4be)
 
+## Resources
+
+- [**Official Report**](https://github.com/guthlb/Comparitive-Analysis-of-Hybrid-ML-and-DL-models-for-Medical-Image-Classification/blob/main/Comparative%20Analysis%20of%20SVM%2C%20CNN%2C%20and%20XGBoost%20for%20Binary%20and%20Multiclass%20Classification.pdf)
+  For an in-depth analysis of the project’s methodologies, experimental results, and comparative findings, refer to the official report. The document covers detailed discussions on standalone ML, DL, and hybrid approaches applied to medical image classification.
+
+- [**Summary Presentation**](https://github.com/guthlb/Comparitive-Analysis-of-Hybrid-ML-and-DL-models-for-Medical-Image-Classification/blob/main/Summary%20Presentation.pdf) 
+  For a concise overview of the project, including key workflows, architecture diagrams, and result highlights, check out the summary presentation slides. This is ideal for a quick understanding of the project’s objectives and outcomes.
 ## Requirements
 
 - **Python 3.6 or higher**
